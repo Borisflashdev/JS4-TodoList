@@ -1,0 +1,81 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.big-div {
+    height: auto;
+    width: 730px;
+    margin: auto;
+    text-align: center;
+}
+
+.list-div {
+    height: 30px;
+    width: 100%;
+    text-align: start;
+}
+
+.opt-buttons {
+    height: 100%;
+    width: 100px;
+    float: right;
+}
+
+.error-message-h {
+    display: none;
+    height: 50px;
+    width: 730px;
+    background-color: #f8d7da;
+    color: #721c24;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.error-message-s {
+    display: block;
+    height: 50px;
+    width: 730px;
+    background-color: #f8d7da;
+    color: #721c24;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.finish {
+    color: gray;
+    text-decoration-color: gray;
+    text-decoration: line-through;
+}
+
+#pen-btn {
+    float: right;
+    color: #0275d8;
+}
+
+#xmark-btn {
+    float: right;
+    color: #d9534f;
+}
+
+#check-btn {
+    float: right;
+    color: #5cb85c;
+}
+
+#pen-btn:hover {
+    cursor: pointer;
+} 
+
+#xmark-btn:hover {
+    cursor: pointer;
+} 
+
+#check-btn:hover {
+    cursor: pointer;
+} 
